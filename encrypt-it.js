@@ -30,6 +30,7 @@
 	function handleEncrypt() {
 		const inputText = document.getElementById("input-text").value;
 		const encryptedText = shiftCipher(inputText);
+		document.getElementById("result").innerText = encryptedText;
 		console.log("Button clicked!");
 	}
 	
